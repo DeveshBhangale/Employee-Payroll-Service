@@ -17,7 +17,7 @@ public class EmployeePayrollService {
     public EmployeePayrollService() {}
 
     public EmployeePayrollService (List<EmployeePayroll>
-                                           employeePayrollList) {
+                                           employeePayrollList){
     	EmployeePayrollService.employeePayrollList=employeePayrollList;
     }
     	
