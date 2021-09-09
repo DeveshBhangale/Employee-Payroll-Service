@@ -70,7 +70,8 @@ public class Java8WatchServiceExample {
 			boolean valid = key.reset();
 			if(!valid) {
 				if(dirWatchers.isEmpty())break;
-				dirWatchers.remove(key);				
+				dirWatchers.remove(key);
+				
 			}
 		}
 	}

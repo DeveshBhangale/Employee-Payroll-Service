@@ -15,7 +15,7 @@ public class EmployeePayroll {
     public String toString() {
         return "EmployeePayrollData{" +
                 "id=" + id +
-                ", name=" + name + '\'' +
+                ", name=" + name  +
                 ", salary=" + salary +
                 '}';
     }
