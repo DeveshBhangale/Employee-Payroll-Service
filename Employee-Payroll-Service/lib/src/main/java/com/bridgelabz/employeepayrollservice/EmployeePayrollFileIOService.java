@@ -17,7 +17,7 @@ public class EmployeePayrollFileIOService {
         });
         try {
             Files.write(Paths.get(PAYROLL_FILE_NAME),empBuffer.toString().getBytes());
-        }catch(IOException e) {
+        }catch(IOException e){
             e.printStackTrace();
         }
     }
